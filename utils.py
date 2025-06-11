@@ -1,3 +1,6 @@
+# Copyright 2025 Adobe Research. All rights reserved.
+# To view a copy of the license, visit LICENSE.md.
+
 import clip
 import copy
 import numpy as np
@@ -18,7 +21,7 @@ def extract_img_feats(clip_model, transform, img_paths, batch_size, normalize=Tr
     return feats
 
     
-# The following functions are from https://github.com/hsp-iit/concon-chi_benchmark/blob/main/vlpers/utils/evaluation.py
+# The following functions are from https://github.com/hsp-iit/concon-chi_benchmark/blob/main/vlpers/utils/evaluation.py (see NOTICE.md)
 
 def get_all_ranks(logits_matrix, ground_truth):
     # The full value exceed the highes value possible 
